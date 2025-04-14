@@ -1,4 +1,3 @@
-
 # 📻 Kotlin Internet Radio App – Lab 5
 
 This is a fully functional **Internet Radio** Android app built with **Jetpack Compose**.  
@@ -20,8 +19,8 @@ It was developed for Lab 5 of Mobile App Development, fulfilling all core requir
 
 ## 📷 Screenshots & Diagrams
 
-### App Architecture  
-## Architecture Diagram
+### App Architecture
+
 ```mermaid
 flowchart TD
     User(Device) -->|Selects Station| MainActivity
@@ -33,9 +32,12 @@ flowchart TD
     MainActivity -->|Volume Control| MediaPlayer
     MainActivity -->|Stop/Release| MediaPlayer
     MainActivity -->|Background Playback| HandlerThread
+```
 
+---
 
-### User Flow  
+### User Flow
+
 ```mermaid
 flowchart TD
     Start([Open App])
@@ -51,8 +53,7 @@ flowchart TD
     BackgroundPlay -->|Continues Playing| StreamAudio
     ShowControls -->|User Closes App| StopAll
     StopAll --> End([End])
-
-
+```
 
 ---
 
@@ -67,8 +68,7 @@ flowchart TD
 
 ## 📁 Submission Files
 
-- ✅ `Lab5_Submission_Report.pdf` – official submission doc
-- ✅ `architecture.png` and `userflow.png` – visual diagrams
+- ✅ `internet_radio_documentation_fixed.pdf` – official submission document
 
 ---
 
